@@ -11,9 +11,11 @@ A Codex skill for clear, coherent scientific schematics and technical-route figu
 - Limit the figure to three font sizes; use bold labels, Chinese Heiti and Latin Arial.
 - Use a white canvas, clear frames and selective fills for emphasis.
 - Assign consistent colors to concepts across inputs, tools, details and outputs.
-- Distinguish information flow, parallel branches, feedback and linked views.
+- Distinguish containment, tool calls, information flow, parallel branches, feedback and expanded views.
+- Keep internal platform modules identifiable before expanding their details outside the main frame.
+- Fit the canvas and label boxes to the content; do not add filler to match a reference figure’s density.
 - Preserve scientific meaning and clearly distinguish schematic illustrations from measured results.
-- Inspect the final editable source and its exported preview before delivery.
+- Inspect the final editable source and its exported preview, including previously corrected issues, before delivery.
 
 These are grant-figure design defaults, not universal publication rules. The user's instructions, scientific content and grant template take precedence.
 
@@ -39,9 +41,9 @@ If you use a custom skill directory, place the repository there instead. The ins
 | --- | --- |
 | [SKILL.md](SKILL.md) | Skill entry point and workflow |
 | [Design system](references/design-system.md) | Typography, sizing, frames, palette and layout |
-| [Visual logic](references/visual-logic.md) | Core concepts, parallel tools, expanded details, comparisons and feedback |
+| [Visual logic](references/visual-logic.md) | Core concepts, platform containment, functional flows, expanded details, comparisons and feedback |
 | [Acceptance checklist](references/acceptance.md) | Final-source and export review |
-| [Textual example](references/approved-example.md) | Example structure, parameters and transfer boundaries |
+| [Textual examples](references/approved-example.md) | Agent and platform structures, parameters and transfer boundaries |
 | [UI metadata](agents/openai.yaml) | Skill display name and description |
 
 The skill instructions and detailed references are written in Chinese; the name and discovery description are in English. The skill provides design guidance, rather than a standalone rendering engine. Use the document or graphics tools available in your environment to produce the figure.
